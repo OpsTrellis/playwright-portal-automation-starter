@@ -1,0 +1,42 @@
+{
+  "name": "@opstrellis/playwright-portal-automation-starter",
+  "version": "1.0.0",
+  "description": "🚀 Enterprise Playwright (TypeScript) starter template for headless portal RPA, no-API carrier/supplier workflow automation, and resilient data sync.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "playwright test",
+    "portal:sync": "tsx src/automations/carrierSync.ts",
+    "codegen": "playwright codegen"
+  },
+  "keywords": [
+    "playwright",
+    "rpa",
+    "robotic-process-automation",
+    "portal-automation",
+    "headless-browser",
+    "typescript",
+    "qa-automation",
+    "sdet",
+    "opstrellis"
+  ],
+  "author": "OpsTrellis <info@opstrellis.com> (https://opstrellis.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpsTrellis/playwright-portal-automation-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpsTrellis/playwright-portal-automation-starter/issues"
+  },
+  "homepage": "https://opstrellis.com/services/robotic-process-automation-rpa/",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
+
